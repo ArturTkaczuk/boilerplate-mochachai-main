@@ -104,8 +104,6 @@ suite("Functional Tests with Zombie.js", function () {
           browser.assert.elements("span#dates", 1);
           done();
         });
-
-        done();
       });
     });
   });
